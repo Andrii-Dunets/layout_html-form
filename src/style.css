@@ -1,1 +1,19 @@
 /* styles go here */
+.form-field {
+  margin: 10px 0;
+  display: block;
+}
+
+fieldset {
+  margin: 20px 0;
+}
+
+.first {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.last {
+  margin-top: 10px;
+  display: block;
+}
