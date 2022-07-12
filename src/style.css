@@ -4,8 +4,13 @@
   display: block;
 }
 
-fieldset {
-  margin: 20px 0;
+.fieldsets {
+  margin-top: 20px;
+}
+
+.lastfieldset {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .first {

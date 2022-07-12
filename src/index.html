@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <h1>HTML Form</h1>
     <script type="text/javascript" src="./main.js"></script>
     <form action="https://mate-academy-form-lesson.herokuapp.com/create-application">
       <fieldset>
@@ -61,7 +60,7 @@
           >
         </label>
       </fieldset>
-      <fieldset>
+      <fieldset class="fieldsets">
         <legend>Registration:</legend>
         <label for="email" class="first">E-mail:
           <input
@@ -81,7 +80,7 @@
           >
         </label>
       </fieldset>
-      <fieldset>
+      <fieldset class="fieldsets">
         <legend>An interesting fact about you?</legend>
         <label class="first">Do you love cats?
           <input
@@ -127,10 +126,13 @@
             type="range"
             id="rating"
             name="rating"
+            min="0"
+            max="10"
+            value="0"
           >
         </label>
       </fieldset>
-      <fieldset>
+      <fieldset class="lastfieldset">
         <legend>Additional info:</legend>
         <label for="comments" class="first">Comments:
           <textarea id="comments" name="comments"></textarea>
